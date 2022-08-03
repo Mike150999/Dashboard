@@ -1,0 +1,66 @@
+.contact{
+	height: 870px;
+	&__avatar-users{
+		position: relative;
+	}
+	&__avatar-img{
+		position: absolute;
+		border-radius: 50%;
+		border: 4px solid #FFFFFF;
+		top: -107px;
+		left: 470px;
+	}
+	&__name{
+		font-family: Mulish;
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 45px;
+		letter-spacing: 0.4000000059604645px;
+		color: #252733;		
+		margin-top: 62px;
+	}
+	&__company{
+		font-family: Mulish;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.4000000059604645px;
+color: #797A84;
+margin-top: 10px;
+
+
+	}
+
+}
+
+.info{
+	text-align: left;
+	padding-left: 53px;
+	&__title{
+		font-family: Mulish;
+font-size: 36px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+color: #000000;
+margin-bottom: 14px;
+margin-top: 24px;
+	}
+	&__content{
+		font-family: Mulish;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+color: #000000;
+
+	}
+	&__address{
+		margin-top: 69px;
+		display: flex;
+		flex-direction: column;
+		width: 217px;
+	}
+}

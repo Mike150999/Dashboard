@@ -1,0 +1,26 @@
+.chip{
+	display: flex;
+	justify-content: center;
+	height: 24px;
+	min-width: 76px;
+	border-radius: 100px;
+	background-color: #8a8686;
+	font-family: Mulish;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 14px;
+	letter-spacing: 0.5px;
+	align-items: center;
+	color: #FFFFFF;
+}
+
+.ChipLowClass{
+	background-color: #FEC400;
+}
+
+.ChipNormalClass{
+	background-color: #29CC97;
+}
+.ChipHighClass{
+	background-color: #F12B2C;
+}

@@ -1,0 +1,91 @@
+.ticket{
+	width: 534px;
+&__header{
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 32px 36px 32px;
+}
+&__header-link{
+font-family: Mulish;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+	color: #3751FF;
+}
+&__header-title{
+font-family: Mulish;
+font-size: 19px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.4000000059604645px;
+color: #252733;
+}
+&__header-group{
+font-family: Mulish;
+font-size: 12px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0.10000000149011612px;
+color: #9FA2B4;
+margin-top: 8px;
+	}
+	
+// 	&__header-support{
+// font-family: Mulish;
+// font-size: 12px;
+// font-weight: 400;
+// line-height: 16px;
+// letter-spacing: 0.10000000149011612px;
+// color: #40424C;
+// 		}
+&__header-text{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+		
+}
+
+.ticket__header-group::after{
+	content: "  Support";
+font-family: Mulish;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: #4B506D;
+
+}
+
+.ticket__content{
+	&-request{
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid #DFE0EB;
+		height: 50px;
+		align-items: center;
+		padding: 0px 32px 0px 32px;
+	}
+	&-request--last{
+	height: 65px;
+	}
+	&-text{
+font-family: Mulish;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+color: #252733;
+	}
+	
+	&-number{
+font-family: Mulish;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+color: #9FA2B4;
+	}
+}

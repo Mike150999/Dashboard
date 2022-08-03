@@ -1,0 +1,128 @@
+.users{
+	border: 1px solid #DFE0EB;
+border-radius: 8px;
+background-color: #FFFFFF;
+&-inner{
+	width:100%;
+}
+}
+
+.header__users{
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 32px 0px 32px;
+
+	&-text{
+font-family: Mulish;
+font-size: 19px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.4000000059604645px;
+color: #252733;
+
+	}
+	&-sort{
+font-family: Mulish;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+color: #4B506D;
+padding-left: 9px;
+	}
+}
+
+.users__details{
+	display: flex;
+	justify-content: space-between;
+	padding: 48px 32px 12px 32px;
+&-info{
+	min-width: 750px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+&-email{
+	padding-right: 70px;
+}
+
+&-distance{
+	padding-right: 115px;
+}
+&-text{
+font-family: Mulish;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0.20000000298023224px;
+color: #9FA2B4;
+}
+}
+
+
+.card{
+	display: flex;
+	justify-content: space-between;
+	border-top:  1.5px solid #DFE0EB;
+	height: 92px;
+	align-items: center;
+	cursor: pointer;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+.card:hover{
+	background-color: #F7F8FF;	
+
+}
+
+.users__info{
+	display: flex;
+	&-text{
+		display: flex;
+		flex-direction: column;
+		margin-left: 24px;
+	}
+}
+
+.users__style-text{
+font-family: Mulish;
+width: 200px;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+color: #252733;
+text-align: left;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.users__style-text1{
+font-family: Mulish;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.10000000149011612px;
+color: #C5C7CD;
+text-align: left;
+	}
+
+.users__content{
+	display: flex;
+	justify-content: space-between;
+	min-width: 748px;
+	&-company{
+		display: flex;
+		flex-direction: column;
+	}
+	&-contact{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+}
+
+.vector{
+	padding-right: 10px;
+}
