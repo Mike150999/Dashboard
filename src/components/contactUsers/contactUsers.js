@@ -53,17 +53,14 @@ return(
 <div className="contact__company">{catchPhrase}</div>
 <div className="info">
 <div className="info__address">
-{/* <Info website title={'Address'}/> */}
 <h2 className='info__title'>Address</h2>
 <span className='info__content'>{street}, {suite}, {city}, {zipcode}</span>
 </div>
 <div className="info__phone">
-{/* <Info title={'Phone'}/> */}
 <h2 className='info__title'>Phone</h2>
 <span className='info__content'>{phone}</span>
 </div>
 <div className="info__website">
-{/* <Info title={'Website'}/> */}
 <h2 className='info__title'>Website</h2>
 <span className='info__content'>{website}</span>
 </div>
@@ -72,13 +69,5 @@ return(
 )
 }
 
-// const Info = ({title, website}) => {
 
-// 	return(
-// 		<>
-// 		<h2 className='info__title'>{title}</h2>
-// <span className='info__content'></span>
-// 		</>
-// 	)
-// }
 
